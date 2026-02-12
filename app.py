@@ -1,12 +1,13 @@
 import streamlit as st
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 from engines.simulator import run_simulation
 from config import SimulationConfig, CostConfig
 
 
 st.set_page_config(layout="wide")
-st.title("📦 Portfolio-Level Demand–Forecast–Inventory Simulator")
+st.title("Integrated Demand Forecasting & Inventory Policy Decision Simulator")
 
 # =============================
 # SIDEBAR CONFIGURATION
